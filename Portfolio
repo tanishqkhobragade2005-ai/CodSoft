@@ -1,0 +1,153 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Tanishq Khobragade</h1>
+        <p>Web Developer | Student</p>
+    </header>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>About Me</h2>
+        <img src="Tanishqformal.jpg.jpeg" alt="My Photo">
+        <p>
+            I am a beginner web developer with knowledge of HTML and CSS.
+            I enjoy creating simple websites and learning new technologies.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic JavaScript</li>
+            <li>C++ (OOP Basics)</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects">
+        <h2>Projects</h2>
+
+
+        <div class="project-card">
+            <h3>Personal Portfolio</h3>
+            <p>A simple portfolio website using HTML and CSS.</p>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section class="resume">
+        <h2>Resume</h2>
+        <a href="resume.pdf" download>Download Resume (PDF)</a>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email: tanishqkhobragade2005@gmail.com</p>
+        <p>Phone: +917058058764</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Tanishq Khobragade. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
+Style.css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f5f9;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#2a5298;
+    color:#fff;
+    text-align:center;
+    padding:30px 10px;
+}
+
+/* Section Box */
+section{
+    background:#fff;
+    max-width:850px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color:#2a5298;
+    margin-bottom:10px;
+}
+
+/* About */
+.about img{
+    width:140px;
+    border-radius:50%;
+    display:block;
+    margin:10px auto;
+}
+
+/* Skills */
+.skills ul{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    list-style:none;
+}
+.skills li{
+    background:#e3ebf5;
+    padding:6px 12px;
+    border-radius:15px;
+}
+
+/* Projects */
+.project-card{
+    background:#f4f7fb;
+    padding:12px;
+    margin-top:10px;
+    border-left:4px solid #2a5298;
+    border-radius:6px;
+}
+
+/* Resume */
+.resume a{
+    background:#2a5298;
+    color:#fff;
+    padding:8px 14px;
+    border-radius:20px;
+    text-decoration:none;
+}
+
+/* Footer */
+footer{
+    background:#2a5298;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+}
