@@ -65,3 +65,56 @@ function calculateResult() {
         display.value = "Error";
     }
 }
+
+Script.js
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #222;
+    font-family: Arial, sans-serif;
+}
+
+.calculator {
+    background: #9f8637;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    width: 260px;
+}
+
+#display {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+button {
+    padding: 15px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: #000000;
+    color: rgb(55, 53, 53);
+}
+
+button:hover {
+    background: #f3f2ea;
+}
+
+.zero {
+    grid-column: span 2;
+}
