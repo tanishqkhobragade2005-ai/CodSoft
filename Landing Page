@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Amazon</title>
+    <link rel="stylesheet" href="site.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <!--box 1-->
+            <div class="nav-logo border">
+                <div class="logo"></div>
+            </div>
+            <!--box 2-->
+            <div class="nav-addr border">
+                <p class="address-first">Deliever to</p>
+                <div class="add-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="address-second">India</p>
+                </div>
+            </div>
+            <!--box 3-->
+            <div class="nav-search">
+                <select class="select-search">
+                    <option>All</option>
+                    <option>Groceries</option>
+                    <option>Beauty</option>
+                    <option>Baby</option>
+                    <option>Book</option>
+                    <option>Accessories</option>
+                </select>
+                <input class="Search-input" placeholder="Search here">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <!--box 4-->
+            <div class="nav-lang border">
+                <i class="fa-solid fa-language"></i>
+                <select class="language">
+                    <option>EN</option>
+                    <option>Hindi</option>
+                    <option>Marathi</option>
+                    <option>Bengali</option>
+                    <option>Gujrati</option>
+                </select>
+            </div>
+            <!--box 5-->
+            <div class="nav-signin border">
+                <p><span>Hello, sign in</span></p>
+                <p class="nav-second">Account & Lists</p>
+            </div>
+            <!--box 6-->
+            <div class="nav-return border">
+                <p><span>Return</span></p>
+                <p class="nav-second">& Orders</p>
+            </div>
+            <!--cart-->
+            <div class="nav-cart border">
+                <i class="fa-solid fa-cart-shopping"></i>
+                Cart
+            </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <!--options-->
+            <div class="panel-opt">
+                <a href="###">MX Player</a>
+                <a href="###">Sell</a>
+                <a href="###">Bestsellers</a>
+                <a href="###">Mobiles</a>
+                <a href="###">Today's Deals</a>
+                <a href="###">Customber Service</a>
+                <a href="###">Price</a>
+            </div>
+        </div>
+    </header>
+    <div class="hero-section">
+        <div class="shop-section">
+            <div class="box">
+                <h2 class="box_heading">Continue shopping deals</h2>
+                <div class="inner_box">
+                    <div class="box_sec">
+                        <img src="towel_ama.jpg" alt="">
+                    </div>
+                    <div class="box_sec">
+                        <img src="towel2_MA.jpg" alt="">
+                    </div>
+                    <div class="box_sec">
+                        <img src="towel_rol.jpg" alt="">
+                    </div>
+                    <div class="box_sec">
+                        <img src="towel_rol2.jpg" alt="">
+                    </div>
+                </div>
+                <a href="##" class="see_link">See more details</a>
+            </div>
+            <div class="box">
+                <h2 class="box_heading">Revamp your home in style</h2>
+                <div class="inner_box2">
+                    <div class="box_sec2">
+                        <img src="carpet_ama.jpg" alt="">
+                        <p>Cusions, covers, bedsheet & more</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="astro_ama.jpg" alt="">
+                        <p>Figurines,vases & more</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="light_ama.jpg" alt="">
+                        <p>Light Solutions</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="cabinet_ama.jpg" alt="">
+                        <p>Home storage</p>
+                        <p></p>
+                    </div>
+                </div>
+                <a href="##" class="see_link">Explore more</a>
+            </div>
+            <div class="box">
+                <h2 class="box_heading">Bulk order discounts + Up to 18% GST saving</h2>
+                <div class="inner_box2">
+                    <div class="box_sec2">
+                        <img src="comp_ama.jpg" alt="">
+                        <p>Up to 45% off | Laptops </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="fryer_ama.jpg" alt="">
+                        <p>Up to 40% off | Kitchen appliances</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="chair_ama.jpg" alt="">
+                        <p>Min. 50% off | Office furniture </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="ama_box.jpg" alt="">
+                        <p>Up to 60% off | Business purchases</p>
+                    </div>
+                </div>
+                <a href="##" class="see_link">Create a free account</a>
+            </div>
+            <div class="box">
+                <h2 class="box_heading">Appliance for your home| Up to 55% off</h2>
+                <div class="inner_box2">
+                    <div class="box_sec2">
+                        <img src="ac_ama.jpg" alt="">
+                        <p>Air Conditioner </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="fridge_ama.jpg" alt="">
+                        <p>Refrigerator</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="microwave_ama.jpg" alt="">
+                        <p>Microwave </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="washing_ama.jpg" alt="">
+                        <p>Washing Machine</p>
+                    </div>
+                </div>
+                <a href="##" class="see_link">See more</a>
+            </div>
+            <div class="box">
+                <h2 class="box_heading">Starting ₹149 | Headphones</h2>
+                <div class="inner_box2">
+                    <div class="box_sec2">
+                        <img src="boat_ama.jpg" alt="">
+                        <p>Starting from 249 Rs. | Boat </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="boult_ama.jpg" alt="">
+                        <p>Starting from 349 Rs. | BoULT</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="noise_ama.jpg" alt="">
+                        <p>Starting from 649 Rs.| Noise </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="zebronics_ama.jpg" alt="">
+                        <p>Starting from 149 Rs. | Zebronics</p>
+                    </div>
+                </div>
+                <a href="##" class="see_link">Create a free account</a>
+            </div>
+            <div class="box">
+                <h2 class="box_heading">Starting ₹199 | Amazon Brands & more</h2>
+                <div class="inner_box2">
+                    <div class="box_sec2">
+                        <img src="bedsheet_ama.jpg" alt="">
+                        <p>Starting 199 Rs. | Bedsheets</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="curtens_a,a.jpg" alt="">
+                        <p>Up to 40% off | Kitchen appliances</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="irontable_ama.jpg" alt="">
+                        <p>Minimum 50% off | Ironing Board & more </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="deershow_ama.jpg" alt="">
+                        <p>Up to 60% off | Home Decor</p>
+                    </div>
+                </div>
+                <a href="##" class="see_link">Create a free account</a>
+            </div>
+            <div class="box">
+                <h2 class="box_heading">Starting ₹49 | Deals on home essentials</h2>
+                <div class="inner_box2">
+                    <div class="box_sec2">
+                        <img src="walpaper_ama.jpg" alt="">
+                        <p>Wallpaper</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="screwdiver_ama.jpg" alt="">
+                        <p>Home Tools</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="scrotchbite_ama.jpg" alt="">
+                        <p>Cleaning Supplies </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="shower_ama.jpg" alt="">
+                        <p>Bathroom Accessories</p>
+                    </div>
+                </div>
+                <a href="##" class="see_link">Explore all</a>
+            </div>
+            <div class="box">
+                <h2 class="box_heading">Automotive essentials | Up to 60% off</h2>
+                <div class="inner_box2">
+                    <div class="box_sec2">
+                        <img src="carcleaner_ama.jpg" alt="">
+                        <p>Cleaning Accessories</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="tyerclean_ama.jpg" alt="">
+                        <p>Tyre & Rim care</p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="helmet_ama.jpg" alt="">
+                        <p>Helmet </p>
+                    </div>
+                    <div class="box_sec2">
+                        <img src="vaccum_ama.jpg" alt="">
+                        <p>Vaccum Cleaner</p>
+                    </div>
+                </div>
+                <a href="##" class="see_link">See More</a>
+            </div>
+            <div class="long_box1">
+                <h2 class="box_heading">Additional items to explore <a href="##" class="longbox_link"> See more</a></h2>
+                <div class="large_box">
+                    <img src="chess amazon.jpg" alt="">
+                    <img src="CHESS_ama.jpg" alt="">
+                    <img src="car_ama.jpg" alt="" style="height: 130px;">
+                    <img src="flipchess_ama.jpg" alt="">
+                    <img src="woodenboard_ama.jpg" alt="">
+                </div>
+            </div>
+            <div class="long_box2">
+                <h2 class="box_heading">Up to 60% off | Cookware, kitchen tool & more | Amazon Launchpad
+                    <a href="##" class="longbox_link"> See all</a>
+                </h2>
+                <div class="large_box">
+                    <img src="kadai_ama.jpg" alt="">
+                    <img src="knife_ama.jpg" alt="">
+                    <img src="cutebottle_ama.jpg" alt="">
+                    <img src="basket_ama.jpg" alt="">
+                    <img src="babycare_ama.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="tall_box">
+            <h2>Inspired by your browsing history</h2>
+            <div class="tall_inner_box">
+                <div class="spec_info">
+                    <img src="book1_ama.jpg" alt="">
+                    <div class="pro_info">
+                        <p style="color:#2162A1;">Eight Million Ways for Happiness: Wisdom form The Heart of Japan
+                        </p>
+                        <b>Rs 754.00</b>
+                        <br>
+                        <span>MRP <s>Rs.698</s></span>
+                        <br>
+                        <span>Free delivery over Rs.499 </span>
+                        <br>
+                        <span>Get it by <b>Wednesday, January 16</b></span>
+                    </div>
+                </div>
+                <div class="spec_info">
+                    <img src="bllue_ama.jpg" alt="">
+                    <div class="pro_info">
+                        <p style="color:#2162A1;">Earthy Fables Premium Bath Towel- 100% Combed Cotton
+                        </p>
+                        <b>Rs 692.00</b>
+                        <br>
+                        <span>MRP <s>Rs.397.00</s></span>
+                        <br>
+                        <span>Free delivery over Rs.499 </span>
+                        <br>
+                        <span>Get it by <b>Wednesday, January 14</b></span>
+                    </div>
+                </div>
+                <div class="spec_info">
+                    <img src="book2_ama.jpg" alt="">
+                    <div class="pro_info">
+                        <p style="color:#2162A1;">Eight Million Ways for Happiness: Wisdom form The Heart of Japan
+                        </p>
+                        <b>Rs 899.00</b>
+                        <br>
+                        <span>MRP <s>Rs.796</s></span>
+                        <br>
+                        <span>Free delivery over Rs.499 </span>
+                        <br>
+                        <span>Get it by <b>Tuesday, January 23</b></span>
+                    </div>
+                </div>
+                <div class="spec_info">
+                    <img src="color_ama.jpg" alt="">
+                    <div class="pro_info">
+                        <p style="color:#2162A1;">Yellow Weaves Super Soft Microfiber Hand Towel GYM & Workout
+                            Towels
+                        </p>
+                        <b>Rs 419.00</b>
+                        <br>
+                        <span>MRP <s>Rs.350.00</s></span>
+                        <br>
+                        <span>Free delivery over Rs.499 </span>
+                        <br>
+                        <span>Get it by <b>Sunday, January 19</b></span>
+                    </div>
+                </div>
+                <div class="spec_info">
+                    <img src="clothbundle_ama.jpg" alt="">
+                    <div class="pro_info">
+                        <p style="color:#2162A1;">FRESH FROM LOOM Cotton Face Towel:500 GSM ,Size 12x12 inch
+                        </p>
+                        <b>Rs 376.00</b>
+                        <br>
+                        <span>MRP <s>Rs.440</s></span>
+                        <br>
+                        <span>Free delivery over Rs.499 </span>
+                        <br>
+                        <span>Get it by <b>Saturday, January 18</b></span>
+                    </div>
+                </div>
+                <div class="spec_info">
+                    <img src="book3_ama.jpg" alt="">
+                    <div class="pro_info">
+                        <p style="color:#2162A1;">Travel in the other Place: Pursuing the self
+                        </p>
+                        <b>Rs 398.00</b>
+                        <br>
+                        <span>MRP <s>Rs.458</s></span>
+                        <br>
+                        <span>Free delivery over Rs.499 </span>
+                        <br>
+                        <span>Get it by <b>Wednesday, January 16</b></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seperator"></div>
+        <div class="sign_in">
+            <h2>See personalised recommendations</h2>
+            <button>Sign in</button>
+            <p>New customer? <a href="33#">Start here</a></p>
+        </div>
+        <div class="seperator"></div>
+        <div class="footer_back">Back to Top</div>
+        <div class="footer_panel1">
+            <ul>
+                <p><b>Get to Know Us</b></p>
+                <a href="##%">About Amazon</a>
+                <a href="##%">Careers</a>
+                <a href="##%">Press Releases</a>
+                <a href="##%">Amazon Science</a>
+            </ul>
+            <ul>
+                <p><b>Connect with Us</b></p>
+                <a href="##%">Facebook</a>
+                <a href="##%">Twitter</a>
+                <a href="##%">Instagram</a>
+            </ul>
+            <ul>
+                <p><b>Make Money with Us</b></p>
+                <a href="##%">Sell on Amazon</a>
+                <a href="##%">Sell under Amazon Accelerator</a>
+                <a href="##%">Protect and Build Your Brand</a>
+                <a href="##%">Amazon Global Selling</a>
+                <a href="##%">Supply to Amazon</a>
+                <a href="##%">Become an Affiliate</a>
+                <a href="##%">Fulfilment by Amazon</a>
+                <a href="##%">Advertise Your Products</a>
+                <a href="##%">Amazon Pay on Merchants</a>
+            </ul>
+            <ul>
+                <p><b>Let Us Help You</b></p>
+                <a href="##%">Your Account</a>
+                <a href="##%">Returns Center</a>
+                <a href="##%">Recalls and Product Safety Alert</a>
+                <a href="##%">100% Purchase Protection</a>
+                <a href="##%">Amazon App Download</a>
+                <a href="##%">Help</a>
+            </ul>
+        </div>
+        <div class="seperator" style="color: #DDDDDD;"></div>
+        <div class="footer_panel2">
+            <img src="ama_blue_logo.png" alt="">
+            <button class="Click1">
+                <i class="fa-solid fa-globe"></i> English
+            </button>
+            <select class="footer_button">
+                <option value="country">
+                    <i class="fa-solid fa-flag"></i>India
+                </option>
+            </select>
+        </div>
+        <div class="foot_panel3">
+            <ul class="list_foot1">
+                <li class="inside_list">
+                    <h5>AbeBooks</h5>
+                    <a>Books, art & collectibles</a>
+                </li>
+                <li class="empty_space"></li>
+                <li class="inside_list">
+                    <h5>Amazon Web Services</h5>
+                    <a>Scalable Cloud Computing Services</a>
+                </li>
+                <li class="empty_space"></li>
+                <li class="inside_list">
+                    <h5>Audible</h5>
+                    <a>Download Audio Books</a>
+                </li>
+                <li class="empty_space"></li>
+                <li class="inside_list">
+                    <h5>IMDb</h5>
+                    <a>Movies, TV & celebrities</a>
+                </li>
+            </ul>
+            <ul class="list_foot2">
+                <li class="inside_list2">
+                    <h5>Shopbop</h5>
+                    <a>Designer Fashion Brand</a>
+                </li>
+                <li class="empty_space2"></li>
+                <li class="inside_list2">
+                    <h5>Amazon Business</h5>
+                    <a>Everything for Your Business</a>
+                </li>
+                <li class="empty_space2"></li>
+                <li class="inside_list2">
+                    <h5>Amazon Prime Music</h5>
+                    <a>100 million songs, ad-free</a>
+                    <a>Over 15 million podcast episodes</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer_panel4">
+            <ul class="final_footer">
+                <li class="last_4">
+                    <a href="&&$" style="width: 143px;">Conditions of Use & Sale</a>
+                </li>
+                <li class="last_4">
+                    <a href="%##" style="width: 87px;">Privacy Notice</a>
+                </li>
+                <li class="last_4">
+                    <a href="##@" style="width: 111px; height: 14.67px;">Interest-Based Ads</a>
+                </li>
+            </ul>
+            <span class="last_span4"><i class="fa-regular fa-copyright"></i> 1996-2026, Amazon.com, Inc. or its affiliates</span>
+        </div>
+    </footer>
+</body>
+
+</html>
+
+Style.css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f2f5f9;
+    color:#333;
+}
+
+/* Header */
+header{
+    background:#2a5298;
+    color:#fff;
+    text-align:center;
+    padding:30px 10px;
+}
+
+/* Section Box */
+section{
+    background:#fff;
+    max-width:850px;
+    margin:20px auto;
+    padding:20px;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+section h2{
+    color:#2a5298;
+    margin-bottom:10px;
+}
+
+/* About */
+.about img{
+    width:140px;
+    border-radius:50%;
+    display:block;
+    margin:10px auto;
+}
+
+/* Skills */
+.skills ul{
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+    list-style:none;
+}
+.skills li{
+    background:#e3ebf5;
+    padding:6px 12px;
+    border-radius:15px;
+}
+
+/* Projects */
+.project-card{
+    background:#f4f7fb;
+    padding:12px;
+    margin-top:10px;
+    border-left:4px solid #2a5298;
+    border-radius:6px;
+}
+
+/* Resume */
+.resume a{
+    background:#2a5298;
+    color:#fff;
+    padding:8px 14px;
+    border-radius:20px;
+    text-decoration:none;
+}
+
+/* Footer */
+footer{
+    background:#2a5298;
+    color:#fff;
+    text-align:center;
+    padding:10px;
+}
